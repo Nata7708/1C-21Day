@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
+	<ConfigVersions>
+		<Metadata name="Catalog.Контрагенты" id="a0e92df0-8881-4ce7-bc4f-fdbd5f6ca2db" configVersion="dceeedcab694734e8b2da7f3ca3c8dcc00000000"/>
+		<Metadata name="Catalog.Номенклатура" id="154a49c7-ca9a-4eb4-a42b-291809a3f259" configVersion="b14fcb0c3c2e7340bd354072c72a235f00000000">
+			<Metadata name="Catalog.Номенклатура.Attribute.ОсновнойПоставщик" id="109764ef-8be1-4601-ab08-2777c220914e"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ТипТовара" id="4b78c2aa-e208-4ef6-9226-46f13122255d"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ОписаниеТовара" id="4d9e2ecb-f982-452e-85f3-af3d02577af1"/>
+		</Metadata>
+		<Metadata name="Catalog.Склады" id="09459e0a-6ea4-45af-a977-ebee82266032" configVersion="903dedd795808747bc47c1b9925ff1a300000000"/>
+		<Metadata name="Configuration.МебельДомТорг" id="02798d38-0312-40d6-b2ab-f5d681f0df9c" configVersion="df46b0bf5183fd4396b8435d47c20f2500000000"/>
+		<Metadata name="Constant.НаименованиеОрганизации" id="e99ca201-8f34-4253-8896-9d4f055135bb" configVersion="e4843508b5d244428d137528426bbb3e00000000"/>
+		<Metadata name="Enum.ТипыТоваров" id="082b4507-c9da-40ce-a512-cf790e4c7d8a" configVersion="a73c447470bbdf4387805fce6a3ca25b00000000">
+			<Metadata name="Enum.ТипыТоваров.EnumValue.Работа" id="1d614397-9f35-4da1-9742-9fc807dffd24"/>
+			<Metadata name="Enum.ТипыТоваров.EnumValue.Услуга" id="403274cb-5d6c-4468-b749-5224d9bc600f"/>
+			<Metadata name="Enum.ТипыТоваров.EnumValue.Товар" id="65a7f5a8-e805-4eeb-bb0d-7c9292b7b2ce"/>
+			<Metadata name="Enum.ТипыТоваров.EnumValue.ВозвратнаяТара" id="cb9decd8-b5d1-4db4-ab3d-9dadc35667bd"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="13ce94a9-1b7e-45bb-9cf3-c5723084f6f8" configVersion="482cb5cfd5d23040b37a15e80036364800000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
