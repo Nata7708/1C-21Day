@@ -233,6 +233,14 @@
 			<Catalog>Склады</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Номенклатура</Catalog>
+			<Catalog>Сотрудники</Catalog>
+			<Document>ЗаказКлиента</Document>
+			<Document>ПоступлениеТоваровИУслуг</Document>
+			<Document>РеализацияТоваровИУслуг</Document>
+			<Document>ПоступлениеТоваров</Document>
+			<Document>РеализацияТоваров</Document>
+			<DocumentJournal>ТорговыеДокументы</DocumentJournal>
+			<DocumentJournal>ТоварныеДокументы</DocumentJournal>
 			<Enum>ТипыТоваров</Enum>
 		</ChildObjects>
 	</Configuration>
