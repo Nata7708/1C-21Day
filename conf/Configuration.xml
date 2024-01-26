@@ -239,9 +239,12 @@
 			<Document>РеализацияТоваровИУслуг</Document>
 			<Document>ПоступлениеТоваров</Document>
 			<Document>РеализацияТоваров</Document>
+			<Document>ВыпискаБанка</Document>
 			<DocumentJournal>ТорговыеДокументы</DocumentJournal>
 			<DocumentJournal>ТоварныеДокументы</DocumentJournal>
 			<Enum>ТипыТоваров</Enum>
+			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
+			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
