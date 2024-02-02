@@ -33,13 +33,6 @@
 			<ContextMenu name="СкладКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="12"/>
 		</InputField>
-		<InputField name="СуммаДокумента" id="13">
-			<DataPath>Объект.СуммаДокумента</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="СуммаДокументаКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="СуммаДокументаРасширеннаяПодсказка" id="15"/>
-		</InputField>
 		<Table name="Товары" id="16">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -94,6 +87,9 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="37"/>
+					<Events>
+						<Event name="OnChange">ТоварыКоличествоПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="ТоварыЦена" id="38">
 					<DataPath>Объект.Товары.Цена</DataPath>
@@ -101,6 +97,9 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="39"/>
 					<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="40"/>
+					<Events>
+						<Event name="OnChange">ТоварыЦенаПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="ТоварыСумма" id="41">
 					<DataPath>Объект.Товары.Сумма</DataPath>
@@ -128,6 +127,11 @@
 		<NavigationPanel>
 			<Item>
 				<Command>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.Продажи.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>

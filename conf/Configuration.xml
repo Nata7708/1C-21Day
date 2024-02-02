@@ -229,17 +229,31 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>Закупки</Subsystem>
+			<Subsystem>НСИ</Subsystem>
+			<CommonPicture>ПодсистемаЗакупки</CommonPicture>
+			<CommonPicture>ПодсистемаПродажи</CommonPicture>
+			<CommonPicture>ПодсистемаНСИ</CommonPicture>
 			<Constant>НаименованиеОрганизации</Constant>
 			<Catalog>Склады</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Номенклатура</Catalog>
+			<Catalog>Валюты</Catalog>
 			<Document>ЗаказКлиента</Document>
 			<Document>ПоступлениеТоваровИУслуг</Document>
 			<Document>РеализацияТоваровИУслуг</Document>
 			<Document>ВыпискаБанка</Document>
+			<Document>УстановкаЦенНоменклатуры</Document>
 			<DocumentJournal>ТорговыеДокументы</DocumentJournal>
 			<Enum>ТипыТоваров</Enum>
+			<Report>ОтчетПоКонтрагентам</Report>
+			<Report>ПоставщикиНоменклатуры</Report>
+			<Report>ПродажаТоваровПоДокументам</Report>
+			<InformationRegister>КурсыВалют</InformationRegister>
+			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
+			<AccumulationRegister>Продажи</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

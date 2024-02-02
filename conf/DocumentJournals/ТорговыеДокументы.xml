@@ -24,7 +24,7 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<DefaultForm/>
+			<DefaultForm>DocumentJournal.ТорговыеДокументы.Form.ФормаСписка</DefaultForm>
 			<AuxiliaryForm/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<RegisteredDocuments>
@@ -54,6 +54,7 @@
 					</References>
 				</Properties>
 			</Column>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</DocumentJournal>
 </MetaDataObject>
