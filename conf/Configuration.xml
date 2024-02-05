@@ -250,10 +250,14 @@
 			<Report>ОтчетПоКонтрагентам</Report>
 			<Report>ПоставщикиНоменклатуры</Report>
 			<Report>ПродажаТоваровПоДокументам</Report>
+			<Report>ОстаткиВзаиморасчетов</Report>
+			<Report>ПродажаТоваров</Report>
+			<Report>ПродажиПоДаннымТабличнойЧасти</Report>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
+			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

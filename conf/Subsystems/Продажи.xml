@@ -26,6 +26,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Продажи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DocumentJournal.ТорговыеДокументы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажаТоваровПоДокументам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиВзаиморасчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажаТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажиПоДаннымТабличнойЧасти</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
