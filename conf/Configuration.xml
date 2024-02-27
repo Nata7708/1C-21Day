@@ -249,9 +249,11 @@
 			<Subsystem>Продажи</Subsystem>
 			<Subsystem>Закупки</Subsystem>
 			<Subsystem>НСИ</Subsystem>
+			<Subsystem>БухУчет</Subsystem>
 			<CommonPicture>ПодсистемаЗакупки</CommonPicture>
 			<CommonPicture>ПодсистемаПродажи</CommonPicture>
 			<CommonPicture>ПодсистемаНСИ</CommonPicture>
+			<CommonPicture>ПодсистемаБухУчет</CommonPicture>
 			<Constant>НаименованиеОрганизации</Constant>
 			<Catalog>Склады</Catalog>
 			<Catalog>Контрагенты</Catalog>
@@ -262,6 +264,7 @@
 			<Document>РеализацияТоваровИУслуг</Document>
 			<Document>ВыпискаБанка</Document>
 			<Document>УстановкаЦенНоменклатуры</Document>
+			<Document>БухгалтерскаяОперация</Document>
 			<DocumentJournal>ТорговыеДокументы</DocumentJournal>
 			<Enum>ТипыТоваров</Enum>
 			<Report>ОтчетПоКонтрагентам</Report>
@@ -280,6 +283,8 @@
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 			<AccumulationRegister>СебестоимостьТоваров</AccumulationRegister>
+			<ChartOfAccounts>БухгалтерскийУчет</ChartOfAccounts>
+			<AccountingRegister>РегистрБухУчет</AccountingRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
