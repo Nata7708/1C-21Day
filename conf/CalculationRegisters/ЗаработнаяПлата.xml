@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<CalculationRegister uuid="5a62551d-700b-41f1-818d-644e1daa2ab4">
+		<InternalInfo>
+			<xr:GeneratedType name="CalculationRegisterRecord.ЗаработнаяПлата" category="Record">
+				<xr:TypeId>82d5df54-9077-48d4-90b5-b888ef739d8e</xr:TypeId>
+				<xr:ValueId>2a120f94-a612-4fb2-a0c8-b5580374401d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterManager.ЗаработнаяПлата" category="Manager">
+				<xr:TypeId>a6e933c3-4c60-444e-8061-59c2a10b7f00</xr:TypeId>
+				<xr:ValueId>5ccac819-49e0-4664-808e-33ad51da1f75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterSelection.ЗаработнаяПлата" category="Selection">
+				<xr:TypeId>0407ee64-8ead-4ac6-9045-e75982a3aaac</xr:TypeId>
+				<xr:ValueId>d2c9cfde-91bf-43f1-8acd-0f2d31b6c74e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterList.ЗаработнаяПлата" category="List">
+				<xr:TypeId>d978c628-2d5f-4205-8308-3a122a71ca6c</xr:TypeId>
+				<xr:ValueId>1cb08236-7e72-41a6-adbc-f3bc55b6e4d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterRecordSet.ЗаработнаяПлата" category="RecordSet">
+				<xr:TypeId>e5083e29-c864-4b2d-9ab5-845d5d72f53a</xr:TypeId>
+				<xr:ValueId>8ac2bd3c-3558-4529-b1e3-9f9ac920874f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterRecordKey.ЗаработнаяПлата" category="RecordKey">
+				<xr:TypeId>8ee66074-c62d-42a8-af88-3bb77896a1ff</xr:TypeId>
+				<xr:ValueId>936f6ff9-7d11-4a54-856c-c18e3c0c2659</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="RecalculationsManager.ЗаработнаяПлата" category="Recalcs">
+				<xr:TypeId>88f64bc1-20c6-4e21-aa0a-d829f488a6b5</xr:TypeId>
+				<xr:ValueId>17b3ea0b-d352-4b75-8a24-bd4b07d8dd90</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаработнаяПлата</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заработная плата</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultListForm/>
+			<AuxiliaryListForm/>
+			<Periodicity>Month</Periodicity>
+			<ActionPeriod>true</ActionPeriod>
+			<BasePeriod>true</BasePeriod>
+			<Schedule>InformationRegister.ГрафикРабот</Schedule>
+			<ScheduleValue>InformationRegister.ГрафикРабот.Resource.РабочийДень</ScheduleValue>
+			<ScheduleDate>InformationRegister.ГрафикРабот.Dimension.Дата</ScheduleDate>
+			<ChartOfCalculationTypes>ChartOfCalculationTypes.Начисления</ChartOfCalculationTypes>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="b2f9e679-edee-41d3-a150-b6cd69ce8aea">
+				<Properties>
+					<Name>Сумма</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Resource>
+			<Attribute uuid="4164e28a-c081-44f7-9f65-851915e32f24">
+				<Properties>
+					<Name>РасчетныеДанные</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расчетные данные</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<ScheduleLink/>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="3fc884c7-c1f6-4862-a272-820225e28ec1">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сотрудник</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<BaseDimension>false</BaseDimension>
+					<ScheduleLink/>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</CalculationRegister>
+</MetaDataObject>
