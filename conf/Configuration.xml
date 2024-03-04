@@ -250,21 +250,30 @@
 			<Subsystem>Закупки</Subsystem>
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>БухУчет</Subsystem>
+			<Subsystem>Зарплата</Subsystem>
 			<CommonPicture>ПодсистемаЗакупки</CommonPicture>
 			<CommonPicture>ПодсистемаПродажи</CommonPicture>
 			<CommonPicture>ПодсистемаНСИ</CommonPicture>
 			<CommonPicture>ПодсистемаБухУчет</CommonPicture>
+			<CommonPicture>ПодсистемаЗарплата</CommonPicture>
 			<Constant>НаименованиеОрганизации</Constant>
 			<Catalog>Склады</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Валюты</Catalog>
+			<Catalog>Сотрудники</Catalog>
 			<Document>ЗаказКлиента</Document>
 			<Document>ПоступлениеТоваровИУслуг</Document>
 			<Document>РеализацияТоваровИУслуг</Document>
 			<Document>ВыпискаБанка</Document>
 			<Document>УстановкаЦенНоменклатуры</Document>
 			<Document>БухгалтерскаяОперация</Document>
+			<Document>ЗакрытиеМесяца</Document>
+			<Document>УтверждениеГрафикаРабот</Document>
+			<Document>НачислениеОклада</Document>
+			<Document>НевыходСотрудника</Document>
+			<Document>РасчетПремии</Document>
+			<Document>ВыплатаЗаработнойПлаты</Document>
 			<DocumentJournal>ТорговыеДокументы</DocumentJournal>
 			<Enum>ТипыТоваров</Enum>
 			<Report>ОтчетПоКонтрагентам</Report>
@@ -277,14 +286,20 @@
 			<Report>СводныйОтчетОПродажах</Report>
 			<Report>ПродажиДиаграмма</Report>
 			<Report>ГрафикПродажПоКлиентам</Report>
+			<Report>ОстаткиПоСчетамБУ</Report>
+			<Report>Баланс</Report>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
+			<InformationRegister>ГрафикРабот</InformationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 			<AccumulationRegister>СебестоимостьТоваров</AccumulationRegister>
+			<AccumulationRegister>ДолгПоЗарплате</AccumulationRegister>
 			<ChartOfAccounts>БухгалтерскийУчет</ChartOfAccounts>
 			<AccountingRegister>РегистрБухУчет</AccountingRegister>
+			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
+			<CalculationRegister>ЗаработнаяПлата</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
