@@ -251,17 +251,20 @@
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>БухУчет</Subsystem>
 			<Subsystem>Зарплата</Subsystem>
+			<Subsystem>БизнесПроцессы</Subsystem>
 			<CommonPicture>ПодсистемаЗакупки</CommonPicture>
 			<CommonPicture>ПодсистемаПродажи</CommonPicture>
 			<CommonPicture>ПодсистемаНСИ</CommonPicture>
 			<CommonPicture>ПодсистемаБухУчет</CommonPicture>
 			<CommonPicture>ПодсистемаЗарплата</CommonPicture>
+			<CommonPicture>ПодсистемаБизнесПроцессы</CommonPicture>
 			<Constant>НаименованиеОрганизации</Constant>
 			<Catalog>Склады</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Catalog>СтатусыСделок</Catalog>
 			<Document>ЗаказКлиента</Document>
 			<Document>ПоступлениеТоваровИУслуг</Document>
 			<Document>РеализацияТоваровИУслуг</Document>
@@ -288,6 +291,11 @@
 			<Report>ГрафикПродажПоКлиентам</Report>
 			<Report>ОстаткиПоСчетамБУ</Report>
 			<Report>Баланс</Report>
+			<Report>НачисленияСотрудникам</Report>
+			<Report>ОтработанноеВремя</Report>
+			<Report>ЭффективностьРаботыМенеджеров</Report>
+			<Report>КлассификацияКлиентов</Report>
+			<Report>ВоронкаПродаж</Report>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>ГрафикРабот</InformationRegister>
@@ -296,10 +304,16 @@
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 			<AccumulationRegister>СебестоимостьТоваров</AccumulationRegister>
 			<AccumulationRegister>ДолгПоЗарплате</AccumulationRegister>
+			<AccumulationRegister>ЭффективностьПродаж</AccumulationRegister>
+			<AccumulationRegister>ВоронкаПродаж</AccumulationRegister>
 			<ChartOfAccounts>БухгалтерскийУчет</ChartOfAccounts>
 			<AccountingRegister>РегистрБухУчет</AccountingRegister>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 			<CalculationRegister>ЗаработнаяПлата</CalculationRegister>
+			<BusinessProcess>ПриемСотрудникаНаРаботу</BusinessProcess>
+			<BusinessProcess>НастойчиваяПродажа</BusinessProcess>
+			<Task>ЗадачиПриемаСотрудника</Task>
+			<Task>ЗадачиНастойчивыхПродаж</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

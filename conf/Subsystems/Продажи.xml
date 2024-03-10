@@ -33,6 +33,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.СводныйОтчетОПродажах</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажиДиаграмма</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ГрафикПродажПоКлиентам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЭффективностьПродаж</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ЭффективностьРаботыМенеджеров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.КлассификацияКлиентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатусыСделок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ВоронкаПродаж</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ВоронкаПродаж</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
